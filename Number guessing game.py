@@ -26,7 +26,7 @@ while count < math.log(upper - lower + 1, 2):
         print("You guessed too small!")
     elif x < guess:
         print("You Guessed too high!")
-.
+
 if count >= math.log(upper - lower + 1, 2):
     print("\nThe number is %d" % x)
     print("\tBetter Luck Next time!")
